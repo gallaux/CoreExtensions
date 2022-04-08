@@ -3,22 +3,20 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
 
-namespace CoreExtensions.Extensions
+namespace CoreExtensions.Helpers
 {
     /// <summary>
-    /// Adds extensions to the Enum class
+    /// Enum helper class
     /// </summary>
-    public static class EnumExtensions
+    public class EnumHelper
     {
-        #region Methods
-
         /// <summary>
         /// Retrieves the Name property on the Display attribute
         /// of the current enum value, or the enum's member name if the Display attribute is not present
         /// </summary>
         /// <param name="val">This enum member to get the name for</param>
         /// <returns>The Name property on the Display attribute, if present</returns>
-        public static string GetDisplayName(this Enum val)
+        public static string GetDisplayName(Enum val)
         {
             return val.GetType()
                 .GetMember(val.ToString())
@@ -27,7 +25,5 @@ namespace CoreExtensions.Extensions
                 ?.GetName()
                 ?? val.ToString();
         }
-
-        #endregion
     }
 }

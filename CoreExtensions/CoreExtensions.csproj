@@ -2,7 +2,7 @@
 
   <PropertyGroup>
 	<PackageId>CoreExtensions</PackageId>
-	<Version>0.0.1</Version>
+	<Version>0.0.2</Version>
 	<Description>A set of generic .NET Standard functions that extend the built-in types, as well as helper functions.</Description>
 	<Authors>Guillaume Allaux</Authors>
 	<Company></Company>
@@ -11,10 +11,6 @@
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<PackageProjectUrl>https://github.com/gallaux/CoreExtensions</PackageProjectUrl>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
