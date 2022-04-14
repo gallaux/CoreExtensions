@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<PackageId>CoreExtensions</PackageId>
+	<PackageId>NetStandardExtensions</PackageId>
 	<Version>0.0.2</Version>
 	<Description>A set of generic .NET Standard functions that extend the built-in types, as well as helper functions.</Description>
 	<Authors>Guillaume Allaux</Authors>
@@ -9,7 +9,7 @@
 	<PackageTags>Standard;Helper;Helpers;Extension;Extensions;Utility;Utilities</PackageTags>
     <TargetFramework>netstandard2.0</TargetFramework>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageProjectUrl>https://github.com/gallaux/CoreExtensions</PackageProjectUrl>
+	<PackageProjectUrl>https://github.com/gallaux/NetStandardExtensions</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

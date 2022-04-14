@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.ComponentModel.DataAnnotations;
-using CoreExtensions.Extensions;
-using CoreExtensions.Helpers;
+using NetStandardExtensions.Extensions;
+using NetStandardExtensions.Helpers;
 
-namespace CoreExtensionsTests
+namespace NetStandardExtensionsTests
 {
     [TestClass]
     public class EnumTests

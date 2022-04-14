@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CoreExtensions.Helpers;
+using NetStandardExtensions.Helpers;
 using System.IO;
 
-namespace CoreExtensionsTests
+namespace NetStandardExtensionsTests
 {
     [TestClass]
     public class HashTests

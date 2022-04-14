@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace CoreExtensions.Helpers
+namespace NetStandardExtensions.Helpers
 {
     /// <summary>
     /// Helper class to process strings

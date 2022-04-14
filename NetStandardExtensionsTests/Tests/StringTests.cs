@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CoreExtensions.Extensions;
-using CoreExtensions.Helpers;
+using NetStandardExtensions.Extensions;
+using NetStandardExtensions.Helpers;
 
-namespace CoreExtensionsTests
+namespace NetStandardExtensionsTests
 {
     [TestClass]
     public class StringTests

@@ -1,6 +1,6 @@
-﻿using CoreExtensions.Helpers;
+﻿using NetStandardExtensions.Helpers;
 
-namespace CoreExtensions.Extensions
+namespace NetStandardExtensions.Extensions
 {
     /// <summary>
     /// Adds extensions to the String class

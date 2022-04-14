@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace CoreExtensions.Helpers
+namespace NetStandardExtensions.Helpers
 {
     /// <summary>
     /// Helper class to calculate hashes

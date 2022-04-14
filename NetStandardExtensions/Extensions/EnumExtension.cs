@@ -1,7 +1,7 @@
-﻿using CoreExtensions.Helpers;
+﻿using NetStandardExtensions.Helpers;
 using System;
 
-namespace CoreExtensions.Extensions
+namespace NetStandardExtensions.Extensions
 {
     /// <summary>
     /// Adds extensions to the Enum class

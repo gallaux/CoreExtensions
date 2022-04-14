@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CoreExtensions.Helpers
+namespace NetStandardExtensions.Helpers
 {
     /// <summary>
     /// Helper class to manipulate Lists

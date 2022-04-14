@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
 
-namespace CoreExtensions.Helpers
+namespace NetStandardExtensions.Helpers
 {
     /// <summary>
     /// Enum helper class

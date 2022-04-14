@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CoreExtensions.Extensions;
-using CoreExtensions.Helpers;
+using NetStandardExtensions.Extensions;
+using NetStandardExtensions.Helpers;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CoreExtensionsTests
+namespace NetStandardExtensionsTests
 {
     [TestClass]
     public class ListTests
