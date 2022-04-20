@@ -39,7 +39,7 @@ namespace NetStandardExtensionsTests
         [TestMethod]
         public void String_Slice_ReturnSlicedString_FromStartToEndIndex()
         {
-            var expected = "loWo";
+            var expected = "loW";
             var str = "helloWorld";
 
             // Helper

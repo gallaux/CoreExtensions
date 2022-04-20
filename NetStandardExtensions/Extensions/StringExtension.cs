@@ -18,9 +18,11 @@ namespace NetStandardExtensions.Extensions
         }
 
         /// <summary>
-        /// Extracts a portion of a string, selected from start index to end index
-        /// Similar to JavaScript's string.slice() method
+        /// Extracts a portion of a string, selected from start index to end index (not included)
         /// </summary>
+        /// <remarks>
+        /// Similar to JavaScript's string.slice() method
+        /// </remarks>
         /// <param name="value">String to slice</param>
         /// <param name="startIndex">The start index</param>
         /// <param name="endIndex">The end index</param>
